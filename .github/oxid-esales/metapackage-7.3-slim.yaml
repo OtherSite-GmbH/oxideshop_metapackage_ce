@@ -11,7 +11,7 @@ install:
   container:
     options: '-e ESHOP_BOOTSTRAP_PATH=vendor/oxid-esales/oxideshop-ce/source/bootstrap.php'
   composer:
-    root_url: 'https://raw.githubusercontent.com/{{ .Github.Repository }}/b-7.3/composer.json'
+    root_url: 'https://raw.githubusercontent.com/{{ .Github.Repository }}/b-7.3-release/composer.json'
     transform: |
       {
         "config": {
